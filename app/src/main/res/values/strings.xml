@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Qalam</string>
+    <string name="app_tagline">Multi-Tab PDF Reader &amp; Knowledge Organizer</string>
+
+    <!-- Navigation & Sidebar -->
+    <string name="cd_open_sidebar">Open library sidebar</string>
+    <string name="cd_close_sidebar">Close library sidebar</string>
+    <string name="sidebar_title">Knowledge Library</string>
+    <string name="sidebar_section_favorites">Pinned Favorites</string>
+    <string name="sidebar_section_toc">Document Tree TOC</string>
+    <string name="sidebar_section_cloud">Cloud &amp; Local Files</string>
+    <string name="favorites_empty_title">No pinned items yet</string>
+    <string name="favorites_empty_subtitle">Tap the pin icon on any folder or PDF to keep it within one tap.</string>
+    <string name="cd_pin_item">Pin to favorites</string>
+    <string name="cd_unpin_item">Unpin from favorites</string>
+
+    <!-- Tabs & Split-Tab -->
+    <string name="tab_new">New Tab</string>
+    <string name="cd_new_tab">Open new tab</string>
+    <string name="cd_close_tab">Close tab</string>
+    <string name="cd_split_tab">Split tab side-by-side</string>
+    <string name="cd_unsplit_tab">Close split pane</string>
+    <string name="cd_swap_panes">Swap left and right panes</string>
+    <string name="pane_primary">Primary Pane</string>
+    <string name="pane_secondary">Secondary Pane</string>
+    <string name="pane_focused_badge">Focused</string>
+    <string name="split_select_second_pdf">Select a second PDF for this pane</string>
+
+    <!-- Reader Canvas & Layouts -->
+    <string name="reader_empty_title">Ready to read</string>
+    <string name="reader_empty_subtitle">Open a PDF from the sidebar, local storage, or load the bilingual sample guide.</string>
+    <string name="action_open_sample_pdf">Open Sample Guide</string>
+    <string name="action_open_local_pdf">Open Local PDF</string>
+    <string name="layout_single_continuous">Single Page Continuous</string>
+    <string name="layout_single_swipe">Single Page Swipe</string>
+    <string name="layout_two_page_spread">Two-Page Spread</string>
+    <string name="filter_normal">Original</string>
+    <string name="filter_sepia">Sepia</string>
+    <string name="filter_dark">Night</string>
+    <string name="page_indicator_format">Page %1$d of %2$d</string>
+    <string name="spread_indicator_format">Pages %1$d–%2$d of %3$d</string>
+    <string name="jump_to_page">Jump to page</string>
+    <string name="search_in_document">Search in document</string>
+    <string name="search_no_results">No matches found</string>
+    <string name="cd_zoom_in">Zoom in</string>
+    <string name="cd_zoom_out">Zoom out</string>
+    <string name="cd_reader_settings">Display and layout options</string>
+    <string name="cd_toggle_distraction_free">Toggle distraction-free reading</string>
+
+    <!-- Annotations & Highlighting -->
+    <string name="annotations_panel_title">Highlights &amp; Notes</string>
+    <string name="annotations_empty_title">No annotations yet</string>
+    <string name="annotations_empty_subtitle">Select text on any page to highlight or attach an anchored note.</string>
+    <string name="action_add_note">Add Note</string>
+    <string name="action_edit_note">Edit Note</string>
+    <string name="action_copy_text">Copy</string>
+    <string name="action_delete_annotation">Delete</string>
+    <string name="note_hint">Write your note…</string>
+    <string name="highlight_yellow">Solar Yellow</string>
+    <string name="highlight_mint">Mint Green</string>
+    <string name="highlight_sky">Sky Blue</string>
+    <string name="highlight_pink">Soft Rose</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+
+    <!-- Tree TOC -->
+    <string name="toc_mode_embedded">PDF Outline</string>
+    <string name="toc_mode_custom">Custom Tree</string>
+    <string name="toc_add_chapter">Add Main Chapter</string>
+    <string name="toc_add_subheading">Add Sub-Heading</string>
+    <string name="toc_chapter_hint">Chapter title</string>
+    <string name="toc_subheading_hint">Sub-heading title</string>
+    <string name="toc_parent_chapter">Parent Chapter</string>
+    <string name="toc_empty_title">No outline entries</string>
+    <string name="toc_empty_subtitle">Switch to Custom Tree to structure chapters and sub-headings at the current page.</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_move_up">Move up</string>
+    <string name="action_move_down">Move down</string>
+
+    <!-- Cloud Storage & Accounts -->
+    <string name="cloud_google_drive">Google Drive</string>
+    <string name="cloud_onedrive">OneDrive</string>
+    <string name="cloud_dropbox">Dropbox</string>
+    <string name="cloud_box">Box</string>
+    <string name="storage_local">Local Storage</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_not_connected">Not connected</string>
+    <string name="demo_mode_title">Demo / Sandbox Mode</string>
+    <string name="demo_mode_subtitle">Explore sample folders and a bilingual PDF across all 4 cloud providers without OAuth keys.</string>
+    <string name="demo_mode_active_badge">Sandbox Active</string>
+    <string name="folder_empty">No PDFs or subfolders here</string>
+    <string name="loading_folder">Loading folder…</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color_title">Material You Dynamic Color</string>
+    <string name="dynamic_color_subtitle">Adapt palette to wallpaper colors on Android 12+</string>
+    <string name="settings_language">Language</string>
+    <string name="language_english">English (LTR)</string>
+    <string name="language_arabic">العربية (RTL)</string>
+    <string name="settings_cloud_accounts">Cloud Accounts</string>
+    <string name="settings_cache_title">Offline PDF Cache</string>
+    <string name="settings_clear_cache">Clear Cache</string>
+    <string name="cache_cleared">Offline cache cleared</string>
+
+    <!-- Common Actions & Errors -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_retry">Retry</string>
+    <string name="error_network">Network unavailable. Check your connection and try again.</string>
+    <string name="error_unauthorized">Session expired. Please reconnect your cloud account.</string>
+    <string name="error_pdf_render">Unable to render this PDF page.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Phase 1 Foundation Preview -->
+    <string name="phase1_badge">Phase 1 · Design System &amp; Core Foundation</string>
+    <string name="phase1_welcome_title">Distraction-Free Bilingual PDF Workspace</string>
+    <string name="phase1_welcome_body">Material You dynamic theming, adaptive Phone &amp; Tablet layouts, instant Arabic RTL / English LTR mirroring, and centralized error handling are ready.</string>
+    <string name="phase1_layout_compact">Compact Phone Layout</string>
+    <string name="phase1_layout_medium">Medium / Foldable Layout</string>
+    <string name="phase1_layout_expanded">Expanded Tablet Layout</string>
+</resources>

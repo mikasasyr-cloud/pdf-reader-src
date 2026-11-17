@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">قلم</string>
+    <string name="app_tagline">قارئ PDF متعدد التبويبات ومنظّم معرفة</string>
+
+    <!-- Navigation & Sidebar -->
+    <string name="cd_open_sidebar">فتح الشريط الجانبي للمكتبة</string>
+    <string name="cd_close_sidebar">إغلاق الشريط الجانبي للمكتبة</string>
+    <string name="sidebar_title">مكتبة المعرفة</string>
+    <string name="sidebar_section_favorites">المفضلة المثبتة</string>
+    <string name="sidebar_section_toc">فهرس الكتاب والأبواب</string>
+    <string name="sidebar_section_cloud">الخدمات السحابية والملفات</string>
+    <string name="favorites_empty_title">لا توجد عناصر مثبتة بعد</string>
+    <string name="favorites_empty_subtitle">اضغط على أيقونة التثبيت بجانب أي مجلد أو ملف PDF للوصول السريع.</string>
+    <string name="cd_pin_item">تثبيت في المفضلة</string>
+    <string name="cd_unpin_item">إلغاء التثبيت من المفضلة</string>
+
+    <!-- Tabs & Split-Tab -->
+    <string name="tab_new">تبويب جديد</string>
+    <string name="cd_new_tab">فتح تبويب جديد</string>
+    <string name="cd_close_tab">إغلاق التبويب</string>
+    <string name="cd_split_tab">تقسيم التبويب لملفين متجاورين</string>
+    <string name="cd_unsplit_tab">إغلاق الجزء المقسم</string>
+    <string name="cd_swap_panes">تبديل موضعي الملفين</string>
+    <string name="pane_primary">اللوح الأساسي</string>
+    <string name="pane_secondary">اللوح الثانوي</string>
+    <string name="pane_focused_badge">النشط</string>
+    <string name="split_select_second_pdf">اختر ملف PDF ثانياً لهذا اللوح</string>
+
+    <!-- Reader Canvas & Layouts -->
+    <string name="reader_empty_title">جاهز للقراءة</string>
+    <string name="reader_empty_subtitle">افتح ملف PDF من الشريط الجانبي أو التخزين المحلي أو جرّب الدليل الإرشادي ثنائي اللغة.</string>
+    <string name="action_open_sample_pdf">فتح الدليل التجريبي</string>
+    <string name="action_open_local_pdf">فتح PDF محلي</string>
+    <string name="layout_single_continuous">صفحة واحدة مستمرة</string>
+    <string name="layout_single_swipe">صفحة واحدة بالتمرير الأفقي</string>
+    <string name="layout_two_page_spread">عرض صفحتين متقابلتين</string>
+    <string name="filter_normal">أصلي</string>
+    <string name="filter_sepia">سيبيا دافئ</string>
+    <string name="filter_dark">ليلي</string>
+    <string name="page_indicator_format">صفحة %1$d من %2$d</string>
+    <string name="spread_indicator_format">الصفحتان %1$d–%2$d من %3$d</string>
+    <string name="jump_to_page">الانتقال إلى صفحة</string>
+    <string name="search_in_document">بحث داخل المستند</string>
+    <string name="search_no_results">لا توجد نتائج مطابقة</string>
+    <string name="cd_zoom_in">تكبير</string>
+    <string name="cd_zoom_out">تصغير</string>
+    <string name="cd_reader_settings">خيارات العرض والتخطيط</string>
+    <string name="cd_toggle_distraction_free">تبديل وضع القراءة الخالي من التشتيت</string>
+
+    <!-- Annotations & Highlighting -->
+    <string name="annotations_panel_title">التظليلات والملاحظات</string>
+    <string name="annotations_empty_title">لا توجد تظليلات بعد</string>
+    <string name="annotations_empty_subtitle">حدّد أي نص في الصفحة لتظليله أو إضافة ملاحظة مرتبطة به.</string>
+    <string name="action_add_note">إضافة ملاحظة</string>
+    <string name="action_edit_note">تعديل الملاحظة</string>
+    <string name="action_copy_text">نسخ</string>
+    <string name="action_delete_annotation">حذف</string>
+    <string name="note_hint">اكتب ملاحظتك هنا…</string>
+    <string name="highlight_yellow">أصفر شمسي</string>
+    <string name="highlight_mint">أخضر نعناعي</string>
+    <string name="highlight_sky">أزرق سماوي</string>
+    <string name="highlight_pink">وردي ناعم</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+
+    <!-- Tree TOC -->
+    <string name="toc_mode_embedded">فهرس الملف الأصلي</string>
+    <string name="toc_mode_custom">فهرس شجري مخصص</string>
+    <string name="toc_add_chapter">إضافة باب رئيسي</string>
+    <string name="toc_add_subheading">إضافة عنوان فرعي</string>
+    <string name="toc_chapter_hint">عنوان الباب الرئيسي</string>
+    <string name="toc_subheading_hint">العنوان الفرعي</string>
+    <string name="toc_parent_chapter">الباب الرئيسي التابع له</string>
+    <string name="toc_empty_title">لا توجد عناصر في الفهرس</string>
+    <string name="toc_empty_subtitle">انتقل إلى الفهرس الشجري المخصص لإضافة أبواب وعناوين فرعية عند الصفحة الحالية.</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_move_up">تحريك للأعلى</string>
+    <string name="action_move_down">تحريك للأسفل</string>
+
+    <!-- Cloud Storage & Accounts -->
+    <string name="cloud_google_drive">Google Drive</string>
+    <string name="cloud_onedrive">OneDrive</string>
+    <string name="cloud_dropbox">Dropbox</string>
+    <string name="cloud_box">Box</string>
+    <string name="storage_local">التخزين المحلي</string>
+    <string name="action_connect">ربط الحساب</string>
+    <string name="action_disconnect">إلغاء الربط</string>
+    <string name="status_connected">متصل</string>
+    <string name="status_not_connected">غير متصل</string>
+    <string name="demo_mode_title">وضع التجربة / المحاكاة (Demo)</string>
+    <string name="demo_mode_subtitle">استعرض مجلدات تجريبية وملف PDF ثنائي اللغة عبر الخدمات الأربع بدون مفاتيح OAuth.</string>
+    <string name="demo_mode_active_badge">وضع التجربة مفعّل</string>
+    <string name="folder_empty">لا توجد ملفات PDF أو مجلدات فرعية هنا</string>
+    <string name="loading_folder">جارٍ تحميل المجلد…</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="theme_system">حسب النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="dynamic_color_title">ألوان Material You الديناميكية</string>
+    <string name="dynamic_color_subtitle">مواءمة الألوان مع خلفية الجهاز في أندرويد 12 فأحدث</string>
+    <string name="settings_language">اللغة</string>
+    <string name="language_english">English (LTR)</string>
+    <string name="language_arabic">العربية (RTL)</string>
+    <string name="settings_cloud_accounts">الحسابات السحابية</string>
+    <string name="settings_cache_title">ذاكرة التخزين المؤقت لـ PDF</string>
+    <string name="settings_clear_cache">مسح الذاكرة المؤقتة</string>
+    <string name="cache_cleared">تم مسح الذاكرة المؤقتة</string>
+
+    <!-- Common Actions & Errors -->
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="error_network">تعذر الاتصال بالشبكة. تحقق من الإنترنت وحاول مجدداً.</string>
+    <string name="error_unauthorized">انتهت صلاحية الجلسة. يرجى إعادة ربط حسابك السحابي.</string>
+    <string name="error_pdf_render">تعذر عرض هذه الصفحة من ملف PDF.</string>
+    <string name="error_generic">حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.</string>
+
+    <!-- Phase 1 Foundation Preview -->
+    <string name="phase1_badge">المرحلة ١ · نظام التصميم والأساس الهندسي</string>
+    <string name="phase1_welcome_title">مساحة قراءة PDF ثنائية اللغة بلا تشتيت</string>
+    <string name="phase1_welcome_body">سمات Material You الديناميكية، والتخطيط التكيفي للهاتف والجهاز اللوحي، وعكس الاتجاه الفوري للعربية والإنجليزية، وإدارة الأخطاء المركزية جاهزة.</string>
+    <string name="phase1_layout_compact">تخطيط الهاتف المدمج</string>
+    <string name="phase1_layout_medium">تخطيط متوسط / قابل للطي</string>
+    <string name="phase1_layout_expanded">تخطيط الجهاز اللوحي الموسّع</string>
+</resources>

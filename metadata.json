@@ -1,0 +1,6 @@
+{
+  "name": "Qalam",
+  "description": "Bilingual multi-tab PDF reader and knowledge organizer with split-tab reading, tree TOC, annotations, and cloud storage sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
