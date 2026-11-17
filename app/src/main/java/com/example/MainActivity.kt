@@ -67,6 +67,9 @@ import com.example.core.designsystem.layoutTypeForWidth
 import com.example.core.designsystem.rememberAppLayoutType
 import com.example.core.designsystem.sidebarDockSideFor
 
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -105,6 +108,10 @@ class MainActivity : AppCompatActivity() {
         val data = intent?.data ?: return
         if (data.host == "oauth2redirect") {
             AppLogger.d("MainActivity", "OAuth redirect received: ${data.scheme}://${data.host}")
+            val container = (application as QalamApplication).container
+            lifecycleScope.launch {
+                container.cloudRepository.handleOAuthRedirect(data)
+            }
         }
     }
 }
